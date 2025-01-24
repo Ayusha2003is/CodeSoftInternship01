@@ -1,0 +1,338 @@
+body {
+    background-color: #d9e6f2; 
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px;
+    z-index: 10;
+    position:relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    background-color: #003366;
+}
+
+#name_logo , img{  
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+.button{
+    display: flex;
+    justify-content:right;
+    width: 100%;
+    cursor: pointer; 
+}
+.button a{
+    color:#f2f1f1;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 28px;
+    text-decoration: none;
+    margin: 0 18px;
+    cursor: pointer; 
+}
+.button a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  .contact_me {
+    background-color: black; 
+    color: white; 
+    font-size: 18px; 
+    padding: 10px 14px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    width:150px;
+    height: auto;
+    margin: 0 18px;
+  }
+
+.contact_me:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+#box {
+    display: flex;           
+    align-items: center;   
+    justify-content: center; 
+    gap: 20px;               
+    margin: 20px auto;   
+    background-color: #d9e6f2;
+}
+
+#picture {
+    width: 400px; 
+    height: 400px;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50px 20px 50px 20px;
+}
+
+
+#picture img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+#About_me{
+    font-size: 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 10px;  
+    align-items: center;
+    max-width: 900px; 
+    word-wrap: break-word; 
+}
+
+#Skill_Section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Skill-List {
+    background-color: #fff;
+    border: 1px solid #202020;
+    border-radius: 15px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.Skill-List:hover {
+    transform: scale(1.05);
+}
+
+.Skill-List h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #202020;
+    text-decoration: underline;
+}
+
+.Skill-List ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.Skill-List li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.heading2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+
+#Expert-Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Project {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.Project:hover {
+    transform: scale(1.05);
+}
+
+.Project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+#hobbies {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #e6f7ff, #99b4cf, #92a8c7);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#hobbies h2 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    color: #333;
+}
+
+#hobbies .hobby-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+#hobbies .hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#hobbies .hobby:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#hobbies .hobby img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#hobbies .hobby p {
+    flex-grow: 1;
+    margin-top: 10px;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+#Contact-Container {
+    text-align: center;
+    padding: 40px 20px;
+   background-color: #d9e6f2; 
+    
+}
+
+#Contact-Container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.Social-Media {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+#call img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    #Skill_Section, #Expert-Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Skill-List, .Project {
+        width: 100%;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
